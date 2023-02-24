@@ -10,6 +10,7 @@ require 'json'
 require 'open-uri'
 
 puts "Deleting previous data"
+Bookmark.destroy_all
 Movie.destroy_all
 
 puts "All movies have been destroyed"
